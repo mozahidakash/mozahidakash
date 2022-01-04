@@ -30,3 +30,18 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.Dreamhead{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Dreamparagraph{
+    font-size: 25px;
+}
+.h3{
+    font-size: 25px;
+}
+.midsection{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
