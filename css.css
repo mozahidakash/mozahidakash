@@ -5,7 +5,7 @@ body{
 .anchor{
     text-decoration: none;
     color: maroon;
-    background-color: orange;
+    background-image: linear-gradient(Gray, tomato);
    padding: 10px 40px;
    font-size: 15px;
    border-radius: 7px;
@@ -16,9 +16,7 @@ body{
 .name{
     color: brown ;
 }
-section{
-    display: flex;
-}
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -29,6 +27,7 @@ section{
 .top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
 }
 .Dreamhead{
     font-size: 40px;
@@ -44,4 +43,34 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+}
+.ex-title{
+    font-size: 35px;
+}
+.experience{
+    display: flex;
+}
+.ex-box{
+    display: flex;
+}
+#fswd{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 40%;
+    box-shadow: 10px 10px 40px tomato;
+    padding: 5%;
+    border-image: liniar-gradient(tomato,cyan);
+    border-image-slice: 1;
+    border-left: 8px solid;
+}
+#bwd{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 40%;
+    box-shadow: 10px 10px 40px tomato;
+    padding: 5%;
+    border-image: liniar-gradient (blue,cyan);
+    border-image-slice: 1;
+    border-left: 8px solid;
 }
